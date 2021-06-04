@@ -38,7 +38,7 @@ function setup() {
   ball = new Polygon(100, 100, 30);
   stand1 = new Ground(500, 270, 300, 20);
   stand2 = new Ground(900, 200, 300, 20);
-  sling = new Sling(ball.body, { x: 200, y: 300 })
+  sling = new Sling(ball.body, { x: 200, y: 600 })
 }
 
 function draw() {
