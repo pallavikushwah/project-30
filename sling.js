@@ -4,7 +4,7 @@ class Sling {
             bodyA: bodyA,
             pointB: pointB,
             stiffness: 0.04,
-            length: 90
+            length: 40
         }
         this.sling = Constraint.create(options);
         this.pointB = pointB;
@@ -16,7 +16,7 @@ class Sling {
             var pointB = this.pointB;
             push();
             stroke(color);
-            strokeWeight(6);
+            strokeWeight(3);
             line(pointA.x, pointA.y, pointB.x, pointB.y);
             pop();
         }
